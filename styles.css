@@ -1,0 +1,127 @@
+/* Загальні стилі */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Шапка сайту */
+header {
+    color: #333;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    max-height: 100px;
+    margin-left: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: goldenrod;
+    border-bottom: 1px solid black;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hero-секція */
+.hero {
+    background-color: goldenrod;
+    color: #eee;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin: 0 0 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero .btn {
+    background-color: #fff;
+    color: goldenrod;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Особливості сайту */
+.features {
+    background-color: #ebe9e9;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.features .feature {
+    margin-bottom: 5rem;
+}
+
+.features h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.feature p {
+    display: inline;
+    padding: 1rem;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+/* Підвал */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
