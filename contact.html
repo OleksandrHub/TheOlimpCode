@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | The Olimp Code</title>
+    <title>Контакти | The Olimp Code</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,36 +25,38 @@
             </nav>
         </div>
     </header>
+    
     <main>
-        <section class="hero">
+        <section class="contact">
             <div class="container">
-                <h2>Ласкаво просимо до "The Olimp Code"!</h2>
-                <p>Ресурс для підготовки до олімпіад з програмування. Вчіться, розвивайтеся, досягайте успіху!</p>
-                <a href="tasks.html" class="btn">Почати!</a>
-            </div>
-        </section>
-        <section class="features">
-            <div class="container">
-                <div class="feature">
-                    <h3>Задачі</h3>
-                    <p>Розв'язуйте задачі різного рівня складності та вдосконалюйте свої навички.</p>
+                <h2>Контактуйте з нами</h2>
+                <p>Маєте питання? Пишіть нам, і ми обов'язково відповімо!</p>
+
+                <form action="#" method="POST" class="contact-form">
+                    <label for="name">Ваше ім'я</label>
+                    <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+
+                    <label for="email">Ваш Email</label>
+                    <input type="email" id="email" name="email" placeholder="Ваш Email" required>
+
+                    <label for="message">Ваше повідомлення</label>
+                    <textarea id="message" name="message" placeholder="Введіть ваше повідомлення" rows="5" required></textarea>
+
+                    <button type="submit" class="btn">Відправити</button>
+                </form>
+
+                <div class="contact-info">
+                    <h3>Інші способи зв'язку:</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> Email: <a href="mailto:sasha.klishch7@gmail.com">sasha.klishch7@gmail.com</a></li>
+                        <li><i class="fab fa-github"></i> <a href="https://github.com/your_username" target="_blank">GitHub</a></li>
+                        <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/your_profile" target="_blank">Instagram</a></li>
+                    </ul>
                 </div>
-                <div class="feature">
-                    <h3>Теорія</h3>
-                    <p>Дізнайтеся більше про алгоритми, структури даних та інші важливі теми.</p>
-                </div>
-                <div class="feature">
-                    <h3>Блог</h3>
-                    <p>Читайте статті та отримуйте корисні поради для підготовки.</p>
-                </div>
-                <section id="donate">
-                    <h2>Підтримай наш проект</h2>
-                    <p>Якщо вам подобається те, що ми робимо, ви можете підтримати нас через донати. Це допоможе нам розвиватися!</p>
-                    <img src="./image/bmc_qr.png" alt="donate">
-                </section>                
             </div>
         </section>
     </main>
+
     <footer>
         <nav>
             <ul>

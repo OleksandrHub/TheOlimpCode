@@ -223,3 +223,95 @@ footer p {
     margin: 0;
     font-size: var(--font-size-small);
 }
+/* Контактна форма */
+.contact {
+    padding: var(--padding-large) 0;
+    background-color: var(--color-light-gray);
+    text-align: center;
+    animation: fadeIn 1s ease;
+}
+
+.contact h2 {
+    font-size: var(--font-size-large);
+    margin-bottom: var(--padding-medium);
+}
+
+.contact p {
+    font-size: var(--font-size-base);
+    margin-bottom: var(--padding-medium);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--color-white);
+    padding: var(--padding-large);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.contact-form label {
+    font-size: var(--font-size-base);
+    margin-bottom: 0.5rem;
+    text-align: left;
+    width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: var(--padding-small);
+    margin-bottom: 1rem;
+    font-size: var(--font-size-base);
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    padding: var(--padding-small) var(--padding-medium);
+    font-size: var(--font-size-base);
+    border-radius: var(--border-radius);
+    border: none;
+    cursor: pointer;
+    transition: background-color var(--transition-duration);
+}
+
+.contact-form button:hover {
+    background-color: var(--color-dark);
+}
+
+.contact-info {
+    margin-top: var(--padding-large);
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: var(--font-size-large);
+    margin-bottom: var(--padding-medium);
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    font-size: var(--font-size-base);
+    margin: 0.5rem 0;
+}
+
+.contact-info ul li a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.contact-info ul li a:hover {
+    color: var(--color-accent);
+}
+
