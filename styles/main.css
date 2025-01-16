@@ -302,6 +302,10 @@ footer p {
     background-color: var(--color-dark);
 }
 
+.contact-form  button a{
+    text-decoration: none;
+    color: var(--color-white);
+}
 .contact-info {
     margin-top: var(--padding-large);
     text-align: left;
@@ -556,5 +560,43 @@ footer p {
     header img {
         filter: brightness(0) invert(1);
     }
+}
+/* #endregion */
+/* #region Сторінка в розробці */
+.construction {
+    text-align: center;
+    padding: var(--padding-large) 0;
+}
+
+.construction h1 {
+    font-size: var(--font-size-large);
+    color: var(--color-accent);
+    margin-bottom: var(--padding-medium);
+}
+
+.construction p {
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    margin-bottom: var(--padding-large);
+}
+
+.construction-image {
+    max-width: 300px;
+    margin: var(--padding-medium) auto;
+}
+
+.construction .btn {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    padding: var(--padding-small) var(--padding-medium);
+    font-size: var(--font-size-base);
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    transition: background-color var(--transition-duration), transform var(--transition-duration);
+}
+
+.construction .btn:hover {
+    background-color: var(--color-dark);
+    transform: scale(1.05);
 }
 /* #endregion */
